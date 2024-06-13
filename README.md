@@ -1,15 +1,18 @@
-### Dataset Description:
-The project utilizes the "20 Newsgroups" dataset, consisting of approximately 18 000 posts across 20 different topics. The split between the training and test sets is based on the dates of the posts, distinguishing those published before and after a specific cutoff date.
+The progress, results and comments are documented in the *20newsgroups/20newsgroups.ipynb* notebook.\
+Use nbviewer to see the fully-rendered notebook with gradient styled result dataframes [LINK](https://nbviewer.org/github/k-katarzyna/20_newsgroups/blob/main/20newsgroups/20newsgroups.ipynb)
 
-### Project Goal:
+### The dataset
+The project utilizes the "20 Newsgroups" dataset, consisting over 18 000 posts across 20 different topics. The split between the training and test sets is based on the dates of the posts, distinguishing those published before and after a specific cutoff date.
+
+### The goal:
 The aim of the project is to train a text classification model for all 20 categories with optimization focused on the F1 macro metric.
 
 ### Methods:
-To achieve this goal, we employ:
+To achieve this goal, we employed:
 - Classifiers: SVM (Support Vector Machine) and Multinomial Naive Bayes.
 - We test 2 approaches to data preparation:
-  1. Text cleaning and lemmatization.
-  2. Unchanged text, preprocessed only by TfidfVectorizer.
+  * Text cleaning and lemmatization.
+  * Unchanged text, preprocessed only by TfidfVectorizer.
 - We evaluate 2 feature selection approaches:
-  1. Chi-square test.
-  2. Limiting the number of features through vectorization parameters.
+  * Chi-square test.
+  * Limiting the number of features through vectorization parameters.
