@@ -1,5 +1,5 @@
 ### Dataset Description:
-The project utilizes the "20 Newsgroups" dataset, consisting of approximately 18,000 posts across 20 different topics. The split between the training and test sets is based on the dates of the posts, distinguishing those published before and after a specific cutoff date.
+The project utilizes the "20 Newsgroups" dataset, consisting of approximately 18 000 posts across 20 different topics. The split between the training and test sets is based on the dates of the posts, distinguishing those published before and after a specific cutoff date.
 
 ### Project Goal:
 The aim of the project is to train a text classification model for all 20 categories with optimization focused on the F1 macro metric.
