@@ -1,4 +1,4 @@
-python_version == "3.9.19"
+python_version == "3.9"
 ipykernel==6.29.4
 matplotlib==3.9.0
 nltk==3.8.1
